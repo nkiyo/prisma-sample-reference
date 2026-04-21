@@ -1,0 +1,11 @@
+- [x] execute SQL via CLI
+  - `sudo apt install sqlite3`
+  - `sqlite3 dev.db`
+  - `.tables`
+  - `select * from User;`
+- [x] add colmuns created at and updated at 
+  - `vim prisma/schema.prisma`
+  - `npx prisma migrate dev --name add 2 columns`
+
+- [ ] update post and user
+- [ ] select post and user
