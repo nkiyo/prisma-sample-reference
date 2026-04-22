@@ -6,6 +6,17 @@
 - [x] add colmuns created at and updated at 
   - `vim prisma/schema.prisma`
   - `npx prisma migrate dev --name add 2 columns`
+- [x] update post and user
+- [x] select post and user
+    - とりあえず動いたが、あんまり理解できてない
 
-- [ ] update post and user
-- [ ] select post and user
+- [ ] json save and load
+- [ ] save byte image
+
+- [ ] env.postgres
+- [ ] 多対多 relation
+- [ ] 集計クエリ
+- [ ] NULL ?
+- [ ] @@unique
+- [ ] 何もないところからDBを復元する
+- [ ] index
