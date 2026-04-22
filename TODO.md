@@ -8,10 +8,10 @@
   - `npx prisma migrate dev --name add 2 columns`
 - [x] update post and user
 - [x] select post and user
-    - とりあえず動いたが、あんまり理解できてない
+    - とりあえず動いたが、あんまり納得できてない
+- [x] save byte image
 
 - [ ] json save and load
-- [ ] save byte image
 
 - [ ] env.postgres
 - [ ] 多対多 relation
