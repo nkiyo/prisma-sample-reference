@@ -10,13 +10,19 @@
 - [x] select post and user
     - とりあえず動いたが、あんまり納得できてない
 - [x] save byte image
+- [x] NULL ?
+- [x] @unique
+
+- FK
+
+`npx -p better-sqlite3 -p prisma prisma studio --url file:./dev.db` が動いてない？
+`This site can’t be reached`
 
 - [ ] json save and load
 
 - [ ] env.postgres
 - [ ] 多対多 relation
 - [ ] 集計クエリ
-- [ ] NULL ?
 - [ ] @@unique
 - [ ] 何もないところからDBを復元する
 - [ ] index
