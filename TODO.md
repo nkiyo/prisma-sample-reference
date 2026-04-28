@@ -12,17 +12,16 @@
 - [x] save byte image
 - [x] NULL ?
 - [x] @unique
+- [x] FK
 
-- FK
+- [ ] 多対多など色んなrelation
+- [ ] index を貼ってみる
+- [ ] json save and load
 
 `npx -p better-sqlite3 -p prisma prisma studio --url file:./dev.db` が動いてない？
 `This site can’t be reached`
 
-- [ ] json save and load
-
 - [ ] env.postgres
-- [ ] 多対多 relation
 - [ ] 集計クエリ
 - [ ] @@unique
 - [ ] 何もないところからDBを復元する
-- [ ] index
